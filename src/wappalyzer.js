@@ -67,7 +67,7 @@ function benchmarkSummary() {
   })
 }
 
-const Wappalyzer = {
+export const Wappalyzer = {
   technologies: [],
   categories: [],
   requires: [],
