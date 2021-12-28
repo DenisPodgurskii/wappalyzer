@@ -120,6 +120,22 @@
     ],
     "website": "http://www.cs-cart.com"
   },
+  "CSSIgniter Olsen Light": {
+    "cats": [
+      80
+    ],
+    "description": "CSSIgniter Olsen Light is a clean, minimal, stylish and elegant WordPress blog theme, perfect for lifestyle, food, cooking, fashion, travel, wedding, health & fitness, photography and beauty blogging.",
+    "icon": "CSSIgniter.svg",
+    "pricing": [
+      "freemium",
+      "onetime",
+      "recurring",
+      "low"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/olsen-light/.+scripts(?:\\.min)?\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://www.cssigniter.com/themes/olsen-light"
+  },
   "CTT": {
     "cats": [
       99
@@ -178,8 +194,8 @@
     "cats": [
       6
     ],
-    "description": "Cafe24 is a ecommerce hosting platform that provides everything you need to build an online DTC store in one-stop.",
-    "icon": "Cafe24.png",
+    "description": "Cafe24 is a global ecommerce platform that provides everything people need to build an online DTC store in one stop.",
+    "icon": "Cafe24.svg",
     "js": {
       "EC_GLOBAL_DATETIME": "",
       "EC_GLOBAL_INFO": "",
@@ -189,7 +205,7 @@
       "low"
     ],
     "saas": true,
-    "website": "https://ec.cafe24.com/"
+    "website": "https://www.cafe24.com/en/"
   },
   "CakePHP": {
     "cats": [
@@ -211,14 +227,14 @@
       87
     ],
     "description": "Caldera Forms is the free WordPress form builder plugin.",
-    "icon": "Caldera Forms.png",
-    "dom": { 
+    "dom": {
       "link[href*='/wp-content/plugins/caldera-forms/']": {
         "attributes": {
           "href": "/wp-content/plugins/caldera-forms/.+\\.css(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
         }
       }
     },
+    "icon": "Caldera Forms.png",
     "js": {
       "calderaForms": ""
     },
@@ -317,6 +333,20 @@
     "scriptSrc": "\\.createsend1\\.com/",
     "website": "https://www.campaignmonitor.com"
   },
+  "Candid Themes Fairy": {
+    "cats": [
+      80
+    ],
+    "description": "Fairy is a free and minimal WordPress blog theme by Candid Themes.",
+    "icon": "Candid Themes.png",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/fairy(?:-premium)?/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://www.candidthemes.com/themes/fairy"
+  },
   "Canto": {
     "cats": [
       95
@@ -409,10 +439,12 @@
       "a[href*='/bag']",
       "a[href*='/shoppingbag']",
       "a[href*='/checkout']",
+      "a[href*='/winkelwagen']",
       "[aria-controls='cart']",
       "[class*='shopping-bag']",
       "[class*='shopping-cart']",
-      "[class*='checkout']"
+      "[class*='checkout']",
+      "[class*='winkelwagen']"
     ],
     "icon": "Cart-generic.svg",
     "js": {
@@ -486,6 +518,21 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/themes/catch-box(?:-pro)?/",
     "website": "https://catchthemes.com/themes/catch-box"
+  },
+  "Catch Themes Fotografie": {
+    "cats": [
+      80
+    ],
+    "description": "Fotografie is a modern photography WordPress theme that comes with high-quality features and minimal design by Catch Themes.",
+    "dom": "link[href*='/wp-content/themes/fotografie/']",
+    "icon": "Catch Themes.png",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/fotografie(?:-pro)?/",
+    "website": "https://catchthemes.com/themes/fotografie"
   },
   "Cecil": {
     "cats": [

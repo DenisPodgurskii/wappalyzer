@@ -615,6 +615,22 @@
     ],
     "website": "https://www.envialia.com"
   },
+  "Envo Shop": {
+    "cats": [
+      80
+    ],
+    "description": "Envo Shop is a fast, clean and modern-looking responsive free WooCommerce WordPress theme by Envo Themes.",
+    "icon": "Envo Themes.png",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/envo-shop/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://envothemes.com/free-envo-shop"
+  },
   "Envo Storefront": {
     "cats": [
       80
@@ -630,6 +646,22 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/themes/envo-storefront/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://envothemes.com/free-envo-storefront"
+  },
+  "Envo eCommerce": {
+    "cats": [
+      80
+    ],
+    "description": "Envo eCommerce is a fast, clean and modern-looking responsive free WooCommerce theme for WordPress.",
+    "icon": "Envo Themes.png",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/envo-ecommerce/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://envothemes.com/free-envo-ecommerce/"
   },
   "Envoy": {
     "cats": [
@@ -1176,6 +1208,20 @@
     "scriptSrc": "\\.ezo(?:js|ic|dn)\\.(?:com|net)",
     "website": "https://www.ezoic.com"
   },
+  "e-Shop Commerce": {
+    "cats": [
+      6
+    ],
+    "description": "e-Shop is a all-in-one Software-as-a-Service (SaaS) that allows Israeli customers to set up an online store and sell their products.",
+    "icon": "eShop eCommerce.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "/template_inc/eshopstoresframework",
+    "website": "https://www.e-shop.co.il"
+  },
   "e-goi": {
     "cats": [
       32,
@@ -1220,6 +1266,20 @@
     "icon": "eBay.svg",
     "scriptSrc": "epnt\\.ebay\\.com/",
     "website": "https://partnernetwork.ebay.com"
+  },
+  "eCaupo": {
+    "cats": [
+      6
+    ],
+    "description": "eCaupo is no delivery portal, but your own shop.",
+    "icon": "eCaupo.png",
+    "pricing": [
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "scriptSrc": "\\.ecaupo\\.(?:at|com)/",
+    "website": "https://www.ecaupo.com"
   },
   "eClass": {
     "cats": [

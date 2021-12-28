@@ -12,26 +12,6 @@
     "scriptSrc": "/?([\\d.]+)?/aframe(?:\\.min)?\\.js\\;version:\\1",
     "website": "https://aframe.io"
   },
-  "a3 Lazy Load": {
-    "cats": [
-      87,
-      92
-    ],
-    "description": "a3 Lazy Load is a mobile oriented, very simple to use plugin that will speed up sites page load speed.",
-    "icon": "a3.png",
-    "js": {
-      "a3_lazyload_extend_params": "",
-      "a3_lazyload_params": ""
-    },
-    "pricing": [
-      "freemium",
-      "low",
-      "recurring"
-    ],
-    "requires": "WordPress",
-    "scriptSrc": "/wp-content/plugins/a3-lazy-load/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
-    "website": "https://a3rev.com/shop/a3-lazy-load/"
-  },
   "A8.net": {
     "cats": [
       71
@@ -96,6 +76,22 @@
     "saas": true,
     "scriptSrc": "\\.ebis\\.ne\\.jp/",
     "website": "http://www.ebis.ne.jp"
+  },
+  "AFThemes CoverNews": {
+    "cats": [
+      80
+    ],
+    "description": "AFThemes CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine.",
+    "icon": "AFThemes.png",
+    "pricing": [
+      "freemium",
+      "onetime",
+      "recurring",
+      "low"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/covernews(?:-pro)?/",
+    "website": "https://afthemes.com/products/covernews"
   },
   "ALL-INKL": {
     "cats": [
@@ -1134,6 +1130,7 @@
       "<div[^>]+data-component-path=\"[^\"+]jcr:",
       "<div class=\"[^\"]*aem-Grid"
     ],
+    "icon": "Adobe Experience Platform.svg",
     "implies": "Java",
     "pricing": [
       "poa"
@@ -1167,7 +1164,7 @@
       42
     ],
     "description": "Adobe Experience Cloud Launch is an extendable tag management solution for Adobe Experience Cloud, Adobe Experience Platform, and other applications.",
-    "icon": "adobe_experience_platform.png",
+    "icon": "Adobe Experience Platform.svg",
     "js": {
       "_satellite.buildInfo": ""
     },
@@ -3477,6 +3474,26 @@
     },
     "website": "http://www.a-blogcms.jp"
   },
+  "a3 Lazy Load": {
+    "cats": [
+      87,
+      92
+    ],
+    "description": "a3 Lazy Load is a mobile oriented, very simple to use plugin that will speed up sites page load speed.",
+    "icon": "a3.png",
+    "js": {
+      "a3_lazyload_extend_params": "",
+      "a3_lazyload_params": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/plugins/a3-lazy-load/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://a3rev.com/shop/a3-lazy-load/"
+  },
   "aThemes Airi": {
     "cats": [
       80
@@ -3509,6 +3526,36 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/themes/astrid/",
     "website": "https://athemes.com/theme/astrid"
+  },
+  "aThemes Hiero": {
+    "cats": [
+      80
+    ],
+    "description": "aThemes Hiero is an awesome magazine theme for your WordPress site feature bold colors and details to the content.",
+    "icon": "aThemes.svg",
+    "pricing": [
+      "freemium"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/hiero/",
+    "website": "https://athemes.com/theme/hiero"
+  },
+  "aThemes Moesia": {
+    "cats": [
+      80
+    ],
+    "description": "aThemes Moesia is the business theme you need in order to build your presence on the Internet.",
+    "dom": "link#moesia-style-css",
+    "icon": "aThemes.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "onetime",
+      "freemium"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/moesia(?:-pro-ii)?/",
+    "website": "https://athemes.com/theme/moesia"
   },
   "aThemes Sydney": {
     "cats": [

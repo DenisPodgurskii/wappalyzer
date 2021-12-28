@@ -698,6 +698,19 @@
     "scriptSrc": "satori\\.segs\\.jp/",
     "website": "https://satori.marketing"
   },
+  "Satori Studio Bento": {
+    "cats": [
+      80
+    ],
+    "description": "Satori Studio Bento is a powerful yet user-friendly free WordPress theme intended for use in the broadest range of web projects.",
+    "icon": "Satori Studio.svg",
+    "pricing": [
+      "freemium"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/bento/",
+    "website": "https://satoristudio.net/bento-free-wordpress-theme"
+  },
   "Sazito": {
     "cats": [
       6
@@ -2491,6 +2504,18 @@
     "scriptSrc": "serving-sys\\.com/",
     "website": "http://sizmek.com"
   },
+  "Skai": {
+    "cats": [
+      10
+    ],
+    "description": "Skai (formerly Kenshoo) is a marketing activation solution for brands and agencies.",
+    "icon": "Skai.svg",
+    "js": {
+      "Ktag_Constants": ""
+    },
+    "scripts": "\\.xg4ken\\.com",
+    "website": "https://skai.io"
+  },
   "Skedify": {
     "cats": [
       72
@@ -3334,6 +3359,20 @@
     },
     "website": "https://www.sphinx-doc.org/"
   },
+  "SpiceThemes SpicePress": {
+    "cats": [
+      80
+    ],
+    "description": "SpicePress is a responsive and fully customizable business template by SpiceThemes.",
+    "icon": "SpiceThemes.png",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/themes/spicepress(?:-pro)?/",
+    "website": "https://spicethemes.com/spicepress-wordpress-theme"
+  },
   "Spinnakr": {
     "cats": [
       10
@@ -3993,17 +4032,8 @@
       47
     ],
     "description": "Stitches is a is a CSS-in-JS styling framework with near-zero runtime, SSR, and multi-variant support.",
-    "dom": "style#stitches, .StudioCanvas, .publish-studio-style",
+    "dom": "style#stitches",
     "icon": "Stitches.svg",
-    "implies": [
-      "React",
-      "Next.js",
-      "Gatsby",
-      "Svelte",
-      "SvelteKit",
-      "Vue.js",
-      "Angular"
-    ],
     "meta": {
       "generator": "^c-[A-Za-z]{5}$"
     },
