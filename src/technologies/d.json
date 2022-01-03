@@ -228,6 +228,22 @@
     },
     "website": "http://danneo.com"
   },
+  "Daphne": {
+    "cats": [
+      22
+    ],
+    "headers": {
+      "Server": "Daphne"
+    },
+    "implies":[
+      "TwistedWeb",
+      "Python",
+      "Zope"
+    ],
+    "oss": true,
+    "icon": "daphne.svg",
+    "website": "https://github.com/django/daphne"
+  },
   "Dart": {
     "cats": [
       27
@@ -724,6 +740,7 @@
       "__admin_media_prefix__": "",
       "django": ""
     },
+    "oss": true,
     "website": "https://djangoproject.com"
   },
   "Django CMS": {
@@ -886,6 +903,23 @@
       "recurring"
     ],
     "website": "https://www.df.eu"
+  },
+  "Dominate WooCommerce": {
+    "cats": [
+      87
+    ],
+    "description": "Dominate WooCommerce is a cloud-based checkout-page which supports PayPal Smart buttons for Venmo, PayPal Credit, and other payment methods.",
+    "icon": "Dominate.png",
+    "requires": [
+      "WordPress",
+      "WooCommerce"
+    ],
+    "scriptSrc": "/wp-content/plugins/iwd-checkout-connector/",
+    "saas": true,
+    "pricing": [
+      "freemium"
+    ],
+    "website": "https://www.dominate.co/woocommerce"
   },
   "Doofinder": {
     "cats": [

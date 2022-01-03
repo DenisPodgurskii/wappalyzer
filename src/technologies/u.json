@@ -181,6 +181,16 @@
     "url": "/cgi-bin/UCEditor\\?",
     "website": "http://ultracart.com"
   },
+  "Umami": {
+    "cats": [
+      10
+    ],
+    "description": "Umami is a self-hosted web analytics solution. It's goal is to provide a friendlier, privacy-focused alternative to Google Analytics and a free, open-sourced alternative to paid solutions.",
+    "icon": "umami.svg",
+    "oss": true,
+    "scriptSrc": "umami\\.js",
+    "website": "https://umami.is/"
+  },
   "Umbraco": {
     "cats": [
       1
@@ -560,6 +570,18 @@
     "saas": true,
     "scriptSrc": "static\\.usizy\\.es/",
     "website": "https://usizy.com"
+  },
+  "Uvicorn":{
+    "cats": [
+      22
+    ],
+    "headers": {
+      "Server": "uvicorn"
+    },
+    "implies": "Python",
+    "icon": "uvicorn.png",
+    "oss": true,
+    "website": "https://www.uvicorn.org/"
   },
   "uKnowva": {
     "cats": [
